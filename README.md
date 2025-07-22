@@ -36,6 +36,11 @@ A quick search on the internet does not return any off-the-shelf solutions. Ther
 I have a UNO R3 that is sitting in a drawer, and it will serve as the basis for this project.
 
 From experience, I know that the standard UNO library will not allow me to complete the project.
-## For fun  
-## To better understand GitHub  
+## For fun
+It's really fun to optimize C code to approach the performance of a processor coded directly in assembly.
+
+On the other hand, the project allows for a detailed exploration of the I2C bus, which I only know from a distance.
+## To better understand GitHub
+This is my first project as a producer; until now, I have only used it as a consumer of solutions. I will be able to explore the tools offered by the platform.
 ## To help
+In the project wiki, I will provide all the details of the design decisions. I hope this will help intermediate and even advanced readers to follow the creation of the software. Perhaps it will inspire some to embark on similar developments.
