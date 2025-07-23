@@ -1,7 +1,21 @@
 # I2Cspy
+**WARNING only 5V I2C bus is supported**
+
 an I2c bus spy built with an arduino UNO R3
 
 work is in progress ...
+
+![I2Cspy at work](./images/I2Cspy%20at%20work.jpg)
+
+I2Cspy at work. 
+
+| I2Cspy pin | target pin |
+|------------|------------|
+| GND | GND |
+| D8 | SDA |
+| D9 | SCL |
+
+never connect 5V pin
 
 # Summary  
 This is an I2C bus spy made with an ARDUINO UNO R3 without any additional electronic hardware.
@@ -10,7 +24,7 @@ Note that the spy only supports the I2C bus powered at 5V. To spy on an I2C bus 
 
 Simply upload the sketch using the ARDUINO IDE.
 
-The electrical connections are:
+The electrical IOs are:
 | spy Port | Direction | I2C Signal | Note                                                     |
 |----------|-----------|------------|----------------------------------------------------------|
 | D6       | Input     |            |Trigger input. A low state allows spying on the bus. If connected to GND, recording is always active.|
